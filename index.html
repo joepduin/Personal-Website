@@ -1,1 +1,69 @@
-hui
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mijn Persoonlijke Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Welkom! Ik ben <span class="highlight">[Jouw Naam]</span></h1>
+            <p>Webontwikkelaar | Ontwerper | Creatieveling</p>
+            <a href="#portfolio" class="btn">Bekijk mijn werk</a>
+            <a href="#contact" class="btn btn-secondary">Neem contact op</a>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>Over Mij</h2>
+            <p>
+                Hallo! Ik ben een gepassioneerde webontwikkelaar en ontwerper met een liefde voor het bouwen van mooie en functionele websites.
+                Mijn doel is om jouw ideeën tot leven te brengen met technologie.
+            </p>
+        </div>
+    </section>
+
+    <section id="portfolio" class="section bg-light">
+        <div class="container">
+            <h2>Portfolio</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="project1.jpg" alt="Project 1">
+                    <h3>Project 1</h3>
+                    <p>Korte beschrijving van het project.</p>
+                </div>
+                <div class="portfolio-item">
+                    <img src="project2.jpg" alt="Project 2">
+                    <h3>Project 2</h3>
+                    <p>Korte beschrijving van het project.</p>
+                </div>
+                <div class="portfolio-item">
+                    <img src="project3.jpg" alt="Project 3">
+                    <h3>Project 3</h3>
+                    <p>Korte beschrijving van het project.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Neem gerust contact met me op via het onderstaande formulier:</p>
+            <form action="https://formspree.io/f/mjvljyvw" method="POST">
+                <input type="text" name="name" placeholder="Jouw Naam" required>
+                <input type="email" name="email" placeholder="Jouw Email" required>
+                <textarea name="message" placeholder="Je bericht..." rows="5" required></textarea>
+                <button type="submit" class="btn">Verstuur</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 [Jouw Naam]. Alle rechten voorbehouden.</p>
+    </footer>
+</body>
+</html>
